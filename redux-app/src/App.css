@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: transparent;
+}
+a:active {
+  color: green !important;
+}
+/* a:visited {
+  color: springgreen !important;
+} */
+a:hover {
+  color: rgb(236, 8, 141) !important;
+}
+
+/* register */
+.registerPage {
+  overflow: hidden;
+}
+.makeBox {
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  width: 40%;
+  height: 100vh;
+  border-radius: 10px;
+}
+.bacImage img {
+  object-position: 7% 2%;
+  object-fit: contain;
+  top: 20%;
+}
+.boxContainer {
+  background-color: white;
+  /* border: 2px solid red; */
+}
+.registerTitle h1 {
+  color: blue;
+  font-size: 40px;
+  text-align: center;
+}
+.formDiv {
+}
+.registerForm {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  border: 1px solid blue;
+  margin: 15px;
+  height: 2.2em;
+  font-size: 20px;
+  text-indent: 5px;
+  border-radius: 5px;
+}
+.makeCheckBox {
+  display: flex;
+  justify-content: space-between;
+}
+.confirmCheckBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.forgetPass {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.btnRegister {
+  background-color: blue;
+  width: 50%;
+
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+.btnRegister button {
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+.alreadyLogin {
+  text-align: center;
+}
+.alreadyLogin p {
+  font-size: 20px;
+}
+.alreadyLogin p a {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* offers */
+
+/* feature product */
+.featureProductFlexBox {
+  display: flex;
+  /* flex-wrap: wrap; */
+  width: 90%;
+  /* align-items: center; */
+  /* justify-content: space-evenly; */
+}
+.featureItem {
+  /* margin: 10px; */
+}
+
+/* userFormDetail */
+.userFormDetail input {
+  height: 2em;
+  font-size: 20px;
+}
+
+/* finnally product payment */
+
+.paymentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  box-shadow: 30px 30px 30px -30px rgb(87, 85, 85);
+  height: 70vh;
+  background-color: indigo;
+  border-radius: 5px;
+}
+.payments {
+  height: 50vh;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  border-radius: 5px;
+  background-color: rgb(249, 250, 248);
+  box-shadow: 20px 30px -10px -10px rgb(156, 154, 154);
+}
+.card > h1 {
+  color: indigo;
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.paymentCard h1 {
+  color: indigo;
+  padding-top: 15px;
+  font-size: 30px;
+}
+.payBtn {
+  margin-top: 10%;
+}
+.payBtn button {
+  border-radius: 5px;
+  background-color: indigo;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+}
+
+/* shopnow */
+.form_container {
+  padding: 10px;
+  transform: translatey(20%);
+  margin: auto;
+  background-color: indigo;
+  border-radius: 5px;
+  width: 60%;
+}
+
+/* userDetails */
+.userDetails {
+  background-color: indigo !important;
+  height: 70vh;
+}
