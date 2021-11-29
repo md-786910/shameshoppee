@@ -21,10 +21,13 @@ function Card({ name }) {
                             <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                                 <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
 
-                                    <img src={owner} alt="" style={{ borderRadius: "50%" }} />
+                                    <img src="" alt="owner logo" style={{ borderRadius: "50%" }} />
+//                                     <img src={owner} alt="" style={{ borderRadius: "50%",height:"" }} />
+                                    
                                 </div>
                                 <div class="flex flex-col items-center text-center justify-center">
-                                    <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Md Ashif Reza</h2>
+//                                     <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Md Ashif Reza</h2>
+                                     <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Imteyaz Alam</h2>
                                     <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
                                     <p class="text-base">
                                         i'm student also i am developer this new <code>comming ecommerce</code> website era.</p>
