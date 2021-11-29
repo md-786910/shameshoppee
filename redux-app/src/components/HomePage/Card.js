@@ -1,5 +1,5 @@
 import React from 'react'
-import owner from "../images/owner.jpg"
+import owner from "../images/owner.png"
 function Card({ name }) {
     return (
         <div>
@@ -26,7 +26,7 @@ function Card({ name }) {
                                 </div>
                                <div class="flex flex-col items-center text-center justify-center">
                                  
-                                     <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Imteyaz Alam</h2>
+                                     <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Md Ashif Reza</h2>
                                     <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
                                     <p class="text-base">
                                         i'm student also i am developer this new <code>comming ecommerce</code> website era.</p>
